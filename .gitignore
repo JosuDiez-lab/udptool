@@ -1,0 +1,22 @@
+# Build artifacts
+*.o
+*.prl
+udptool
+Makefile
+
+# SFDK build directory
+.sfdk/
+
+# RPM packages
+rpm/
+RPMS/
+
+# Empty/generated files
+documentation.list
+
+# Qt temporary files
+.tmp/
+
+# OS-generated files
+*~
+.core

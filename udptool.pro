@@ -1,0 +1,9 @@
+TEMPLATE = app
+TARGET = udptool
+QT += core network
+QT -= gui
+CONFIG += console
+CONFIG -= app_bundle
+SOURCES += main.cpp
+target.path = /usr/bin
+INSTALLS += target
